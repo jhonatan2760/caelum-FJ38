@@ -1,4 +1,4 @@
-package cotuba;
+package cotuba.reader;
 
 import org.apache.commons.cli.*;
 
