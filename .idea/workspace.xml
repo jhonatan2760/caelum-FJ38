@@ -1,26 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="48642067-d195-4015-8a7f-db697e09e569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/caelum-FJ38.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplo/01-pra-que-serve-oo.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplo/02-solid.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplo/09-referencias.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assembly/distribution.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/cotuba.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cotuba-cli.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/application/Cotuba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/cli/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/domain/Capitulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/domain/Ebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/epub/GeradorEpub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/md/RenderizadorMDParaHTML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/pdf/GeradorPDF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/generate/GeradorPDF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/reader/LeitorOpcoesCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cotuba/cli/LeitorOpcoesCLI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,6 +57,14 @@
       <option name="presentableId" value="Default" />
       <updated>1623709579459</updated>
     </task>
+    <task id="LOCAL-00001" summary="First class content.">
+      <created>1623794594228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623794594228</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -58,5 +77,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First class content." />
+    <option name="LAST_COMMIT_MESSAGE" value="First class content." />
   </component>
 </project>
