@@ -1,7 +1,7 @@
 package cotuba.cli;
 
 import cotuba.application.Cotuba;
-import cotuba.md.RenderizadorMDParaHTML;
+import cotuba.md.RenderizadorMDParaHTMLCommonMark;
 
 import java.nio.file.Path;
 
@@ -9,18 +9,15 @@ public class Main {
 
     public static void main(String[] args) {
         LeitorOpcoesCLI leitorOpcoesCLI = new LeitorOpcoesCLI(args);
-        Path diretorioDosMD = leitorOpcoesCLI.getDiretorioDosMD();
-        String formato = leitorOpcoesCLI.getFormato();
-        Path arquivoDeSaida = leitorOpcoesCLI.getArquivoDeSaida();
         boolean modoVerboso = leitorOpcoesCLI.isModoVerboso();
         try {
 
 
-            RenderizadorMDParaHTML renderizador = new RenderizadorMDParaHTML();
+            RenderizadorMDParaHTMLCommonMark renderizador = new RenderizadorMDParaHTMLCommonMark();
 
             Cotuba cotuba = new Cotuba();
-            cotuba.executa(formato, diretorioDosMD, arquivoDeSaida);
-            System.out.println("Arquivo gerado com sucesso: " + arquivoDeSaida);
+            cotuba.executa(leitorOpcoesCLI);
+            System.out.println("Arquivo gerado com sucesso: " + leitorOpcoesCLI.getArquivoDeSaida());
         } catch (Exception ex) {
             System.err.println(ex.getMessage());
             if(leitorOpcoesCLI.isModoVerboso()){

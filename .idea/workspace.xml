@@ -5,21 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48642067-d195-4015-8a7f-db697e09e569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cotuba-cli.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/application/Cotuba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/cli/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/domain/Capitulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/domain/Ebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/epub/GeradorEpub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/md/RenderizadorMDParaHTML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/pdf/GeradorPDF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/application/GeradorEbook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/application/ParametrosCotuba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cotuba/application/RenderizadorMDParaHTML.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/generate/GeradorPDF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/reader/LeitorOpcoesCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cotuba/cli/LeitorOpcoesCLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/application/Cotuba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cotuba/application/Cotuba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/cli/LeitorOpcoesCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cotuba/cli/LeitorOpcoesCLI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/cli/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cotuba/cli/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/epub/GeradorEpub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cotuba/epub/GeradorEpubEpublib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/md/RenderizadorMDParaHTML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cotuba/md/RenderizadorMDParaHTMLCommonMark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cotuba/pdf/GeradorPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cotuba/pdf/GeradorPDFItext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,6 +43,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="cotuba.cli" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
