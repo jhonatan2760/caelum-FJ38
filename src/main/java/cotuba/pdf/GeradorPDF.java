@@ -16,11 +16,12 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-public class GeradorPDFItext implements GeradorEbook {
+public class GeradorPDF implements GeradorEbook {
 
     @Override
-    public	void	gera(Ebook ebook) {
+    public	void gera(Ebook ebook) {
         Path arquivoDeSaida = ebook.getArquivoDeSaida();
+
         try(PdfWriter	writer	=	new	PdfWriter(Files.newOutputStream(arquivoDeSaida));
             PdfDocument	pdf	=	new	PdfDocument(writer);
             Document	pdfDocument	=	new	Document(pdf))	{
