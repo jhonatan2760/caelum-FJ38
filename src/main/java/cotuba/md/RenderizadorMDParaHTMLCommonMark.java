@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import	java.util.stream.Stream;
 
+import cotuba.application.AplicadorTema;
 import cotuba.application.RenderizadorMDParaHTML;
 import cotuba.domain.Capitulo;
 import	org.commonmark.node.AbstractVisitor;
@@ -56,6 +57,10 @@ public class RenderizadorMDParaHTMLCommonMark implements RenderizadorMDParaHTML 
                             HtmlRenderer renderer = HtmlRenderer.builder().build();
                             String html = renderer.render(document);
                             capitulo.setConteudoHtml(html);
+
+                            AplicadorTema tema	=	new	AplicadorTema();	//	inserido
+                            tema.aplica(capitulo);	//	inserido
+
                             capitulos.add(capitulo);
                         } catch (Exception ex) {
                             throw new RuntimeException("Erro	ao	renderizar	para	HTML	o	arquivo	" + arquivoMD, ex);

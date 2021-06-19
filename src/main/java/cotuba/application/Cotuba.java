@@ -2,8 +2,6 @@ package cotuba.application;
 
 import cotuba.domain.Capitulo;
 import cotuba.domain.Ebook;
-import cotuba.epub.GeradorEpubEpublib;
-import cotuba.pdf.GeradorPDFItext;
 
 import java.util.List;
 
@@ -19,14 +17,7 @@ public class Cotuba {
         ebook.setArquivoDeSaida(parametroCLI.getArquivoDeSaida());
         ebook.setCapitulos(capitulos);
 
-
-        if ("pdf".equals(parametroCLI.getFormato())) {
-            new GeradorPDFItext().gera(ebook);
-        } else if ("epub".equals(parametroCLI.getFormato())) {
-           new GeradorEpubEpublib().gera(ebook);
-        } else {
-            throw new RuntimeException("Formato do ebook inválido: " + parametroCLI.getFormato());
-        }
+        GeradorEbook.cria(parametroCLI.getFormato()).gera(ebook);
 
 
     }
